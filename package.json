@@ -1,0 +1,18 @@
+{
+  "name": "Assignment1",
+  "version": "1.0.0",
+  "description": "Introduction to HTTP and Asynchronous Programming using Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha server.test.js",
+    "start": "node server.js"
+  },
+  "author": "Medhir Bhargava",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^7.1.1"
+  },
+  "dependencies": {
+    "request": "^2.67.0"
+  }
+}
