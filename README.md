@@ -53,7 +53,8 @@ Your objective is to create a server that provides listing data from a JSON file
 
 We have provided skeleton code that will help guide you in completing this assignment. There is also a file named `server.tests.js` containing unit tests to test your server once completed. 
 
-Instructions: 
+# Instructions: 
+
 1. Make sure you have [Node.js](https://nodejs.org/en/) installed
 2. Clone this repository and then navigate to it on your local machine's terminal 
 3. Install the mocha testing framework with the command `npm install -g mocha`
