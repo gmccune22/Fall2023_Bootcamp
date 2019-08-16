@@ -35,7 +35,9 @@ server.listen(port, function() {
 });
 console.log('Is the server started?');
 ```
-Which log statement do you expect to be printed first? Answer this, then type the command `node simpleServer.js` and see if the results match up with what you were thinking. `Is the server started?` gets printed first is because the call to `server.listen()` is asynchronous in nature. While server.listen() is not finished, the control flow gets passed to the next line of the program. Once server.listen() is finished, it executes the *callback*, defined by the anonymous function: 
+Which log statement do you expect to be printed first? Answer this, then type the command `node simpleServer.js` and see if the results match up with what you were thinking. 
+
+`Is the server started?` gets printed first is because the call to `server.listen()` is asynchronous in nature. While server.listen() is not finished, the control flow gets passed to the next line of the program. Once server.listen() is finished, it executes the *callback*, defined by the anonymous function: 
 ```javascript
 function() {
     console.log('Server listening on: http://127.0.0.1:' + port);
@@ -47,11 +49,13 @@ As you may imagine, the utility of the above server is quite low, since it has n
 
 ## Assignment
 Your objective is to create a server that provides listing data from a JSON file. To accomplish this, you will: 
-- use the File System module to load `listings.json` into memory  
+- use the File System module (fs) to load `listings.json` into memory  
 - create a request handler with the URL module to send the listing data on a GET request to `localhost:8080/listings`
 - use the HTTP module to create a server that makes use of this request handler
 
-We have provided skeleton code that will help guide you in completing this assignment. There is also a file named `server.tests.js` containing unit tests to test your server once completed. 
+We have provided skeleton code that will help guide you in completing this assignment. 
+
+There is also a file named `server.tests.js` containing unit tests to test your server once completed. 
 
 # Instructions: 
 
@@ -68,7 +72,7 @@ Some resources you may find useful:
 - The [HTTP module](https://nodejs.org/api/http.html)
     - [response.writeHead()](https://nodejs.org/api/http.html#http_response_writehead_statuscode_statusmessage_headers)
     - [response.end()](https://nodejs.org/api/http.html#http_response_end_data_encoding_callback)
-- The File System's [readFile() method](https://nodejs.org/api/fs.html#fs_fs_readfile_file_options_callback)
+- The File System's [readFile() method](https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback)
 - [Different MIME Types/File types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types)
 
 
