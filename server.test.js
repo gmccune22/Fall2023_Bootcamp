@@ -1,3 +1,5 @@
+//This is a good file to study and understand how to setup and run tests with mocha
+
 var should = require('should'), 
     fs = require('fs'),
     request = require('request');
