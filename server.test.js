@@ -1,4 +1,4 @@
-//This is a good file to study and understand how to setup and run tests with mocha
+//This is a good file to study and understand how to setup and run tests with JEST
 
 var should = require('should'), 
     fs = require('fs'),

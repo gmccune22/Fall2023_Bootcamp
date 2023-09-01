@@ -7,7 +7,7 @@
     "test": "mocha server.test.js",
     "start": "node server.js"
   },
-  "author": "Medhir Bhargava",
+  "author": "Medhir Bhargava and Christina Gardner-McCune",
   "license": "MIT",
   "devDependencies": {
     "should": "^7.1.1"
