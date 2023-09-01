@@ -45,7 +45,7 @@ function() {
     console.log('Server listening on: http://127.0.0.1:' + port);
 }
 ```
-Before continuing to the assignment, these two tutorials [Tutorial 1](http://www.theprojectspot.com/tutorial-post/Node-js-for-beginners-part-1-hello-world/2) [Tutorial 1](http://www.theprojectspot.com/tutorial-post/nodejs-for-beginners-callbacks/4) tutorials will help you further understand how Node is used to create servers and the nature of callback functions. 
+Before continuing to the assignment, these two tutorials [Tutorial 1](http://www.theprojectspot.com/tutorial-post/Node-js-for-beginners-part-1-hello-world/2) [Tutorial 2](http://www.theprojectspot.com/tutorial-post/nodejs-for-beginners-callbacks/4) tutorials will help you further understand how Node is used to create servers and the nature of callback functions. 
 
 As you may imagine, the utility of the above server is quite low, since it has no ability to differentiate between requests and respond in the appropriate fashion.
 

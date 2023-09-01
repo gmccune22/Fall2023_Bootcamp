@@ -1,6 +1,6 @@
 {
   "name": "Assignment1",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Introduction to HTTP and Asynchronous Programming using Node.js",
   "main": "server.js",
   "scripts": {
