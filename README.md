@@ -57,16 +57,14 @@ Your objective is to create a server that provides listing data from a JSON file
 
 We have provided skeleton code that will help guide you in completing this assignment. 
 
-There is also a file named `server.tests.js` containing unit tests to test your server once completed. 
 
 # Instructions: 
 
 1. Make sure you have [Node.js](https://nodejs.org/en/) installed
 2. Clone this repository and then navigate to it on your local machine's terminal 
   See Link for details on how to clone repository - (https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-3. Install the JEST testing framework with the command `yarn global add jest`
-4. Use `yarn add` to download all necessary dependencies
-5. Implement the server by filling in code blocks found in `server.js`, then test your implementation with the command `yarn test` OLD `mocha server.test.js`. (make sure your server is running before trying to run the tests!)
+3. Use `yarn add` to download all necessary dependencies
+4. Implement the server by filling in code blocks found in `server.js`, then test your implementation with the command `yarn test` OLD `mocha server.test.js`. (make sure your server is running before trying to run the tests!)
 
 Some resources you may find useful: 
 - [Creating an HTTP server in Node.js](http://www.sitepoint.com/creating-a-http-server-in-node-js/)
