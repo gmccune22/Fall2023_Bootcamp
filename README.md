@@ -60,14 +60,17 @@ We have provided skeleton code that will help guide you in completing this assig
 
 # Instructions: 
 
-1. Make sure you have [Node.js](https://nodejs.org/en/) installed
+1. Make sure you have [Node.js](https://nodejs.org/en/) downloaded and installed. In your terminal run `node -v` to check that it installed.
 2. Clone this repository and then navigate to it on your local machine's terminal 
   See Link for details on how to clone repository - (https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-3. Use `yarn add` to download all necessary dependencies
-4. Implement the server by filling in code blocks found in `server.js`. Then test placing the URL in the browser -  http://127.0.0.1:8080 
+3. Enable corepack, in your terminal  run `corepack enable`
+4. In your terminal, run `corepack prepare yarn@stable --activate`. Check using `corepack yarn -v`
+4.  In your terminal, run  `corepack yarn add` to download all necessary dependencies, Note you'll use `corepack yarn add` to manage your dependencies.
+5. Implement the server by filling in code blocks found in `server.js`. Then test placing the URL in the browser -  http://127.0.0.1:8080 
 
 Some resources you may find useful: 
 - [Creating an HTTP server in Node.js](http://www.sitepoint.com/creating-a-http-server-in-node-js/)
+- [Request Object](https://developer.mozilla.org/en-US/docs/Web/API/Request/url)
 - URL [Parsing](https://nodejs.org/api/url.html#url_url_parsing)
 - The [HTTP module](https://nodejs.org/api/http.html)
     - [response.writeHead()](https://nodejs.org/api/http.html#http_response_writehead_statuscode_statusmessage_headers)
