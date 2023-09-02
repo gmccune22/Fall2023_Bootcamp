@@ -64,7 +64,7 @@ We have provided skeleton code that will help guide you in completing this assig
 2. Clone this repository and then navigate to it on your local machine's terminal 
   See Link for details on how to clone repository - (https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 3. Test your repo is working by using git to change branches to Bootcamp1 then run `node simpleServer.js`. If this works, you are in business. Happy Coding. 
-4. Implement the server by filling in code blocks found in `server.js`. Then test placing the URL in the browser -  http://127.0.0.1:8080 
+4. Implement the server by filling in code blocks found in `server.js`. Then test placing the URL in the browser -  http://localhost:8080 
 
 Some resources you may find useful: 
 - [Creating an HTTP server in Node.js](http://www.sitepoint.com/creating-a-http-server-in-node-js/)
